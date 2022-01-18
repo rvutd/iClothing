@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Twinkle+Star&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Ole&display=swap");
+
+:root {
+  --pink-colour: #f8425f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-family: "Mea Culpa", cursive;
+  font-family: "Ole", cursive;
+  font-size: 4em;
+  /* margin: 10px 20px; */
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s background ease-in;
+}
+
+button:hover {
+  background: #f8425f;
+}
+
+.container {
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.pink {
+  color: #f8425f;
+}
