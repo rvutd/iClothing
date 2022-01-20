@@ -3,6 +3,7 @@ header {
   background-color: rgb(255, 255, 255);
   position: fixed;
   top: 0;
+  z-index: 10;
   width: 100%;
 }
 
@@ -60,15 +61,13 @@ i {
 
 /* Gallery Section */
 .gallery .container {
+  display: grid;
   justify-content: center;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .gallery .img-box {
-  max-width: 18em;
-  padding: 20px;
-  margin: 0 auto;
+  max-width: 15em;
+  margin: 20px;
 }
 
 .sub-section {
@@ -99,16 +98,22 @@ i {
 }
 
 .gallery2 .img-box {
-  margin: 0 auto;
-  padding: 5px;
+  margin: 10px;
+  transition: 0.2s all ease-in;
+}
+
+.gallery2 .img-box:hover {
+  transform: translateY(-10px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Location Hero */
-.location-hero .container {
+#location-hero .container {
   display: grid;
   justify-content: center;
 }
-.location-hero img {
+
+#location-hero img {
   max-width: 40em;
 }
 
